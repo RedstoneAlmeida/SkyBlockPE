@@ -1,0 +1,22 @@
+MaxPlotsPerPlayer: 5 
+#The maximum amount of plots one can have
+DataProvider: 'sqlite' 
+#The data provider where plot data is stored. Do not mess with this if you do not know how it works.
+UseEconomy: false 
+#Use an economy plugin to add prices to things like claiming (Below)
+PlotCacheSize: 100
+
+DefaultWorld:
+  MaxPlotsPerPlayer: 5 
+  #The maximum amount of plots that one can own
+  ClaimPrice: 0 
+  #How much it costs to claim a plot (Economy must be set to 'true')
+  ClearPrice: 0 
+  #How much it costs to clear a plot (Economy must be set to 'true')
+  DisposePrice: 0 
+  #How much it costs to dispose a plot (Economy must be set to 'true')
+  ResetPrice: 0 
+  #How much it costs to reset a plot (Economy must be set to 'true)
+  Chunks: 8
+  #How large an island is, in chunks (16 blocks = 1 chunk)
+  

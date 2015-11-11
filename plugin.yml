@@ -1,0 +1,85 @@
+name: SkyBlock
+main: thebigsmileXD\SkyBlock\SkyBlock
+version: 1.0.2
+load: STARTUP
+api: 1.0.0
+author: thebigsmileXD Wies and Exxarion
+description: Plot and protection plugin
+softdepend: [EconomyAPI, PocketMoney]
+
+permissions:
+  skyblock.command:
+    description: Allows users to use myplot features
+    default: true
+    children:
+      skyblock.command.claim:
+        description: Gives the claim command
+        default: true
+      skyblock.command.info:
+        description: Gives the info command
+        default: true
+      skyblock.command.list:
+        description: Gives the list command
+        default: true
+      skyblock.command.generate:
+        description: Gives the generate command
+        default: op
+      skyblock.command.addhelper:
+        description: Gives the addhelper command
+        default: true
+      skyblock.command.removehelper:
+        description: Gives the removehelper command
+        default: true
+      skyblock.command.auto:
+        description: Gives the auto command
+        default: true
+      skyblock.command.clear:
+        description: Gives the clear command
+        default: true
+      skyblock.command.dispose:
+        description: Gives the dispose command
+        default: true
+      skyblock.command.reset:
+        description: Gives the reset command
+        default: true
+      skyblock.command.biome:
+        description: Gives the biome command
+        default: true
+      skyblock.command.home:
+        description: Gives the home command
+        default: true
+      skyblock.command.name:
+        description: Gives the name command
+        default: true
+  skyblock.admin:
+    description: Grant administrator powers
+    default: op
+    children:
+      skyblock.admin.clear:
+        description: Allow clear command on every plot
+        default: op
+      skyblock.admin.dispose:
+        description: Allow dispose command on every plot
+        default: op
+      skyblock.admin.reset:
+        description: Allow reset command on every plot
+        default: op
+      skyblock.admin.addhelper:
+        description: Allow addhelper command on every plot
+        default: op
+      skyblock.admin.removehelper:
+        description: Allow removehelper command on every plot
+        default: op
+      skyblock.admin.build:
+        description: Allow player to build outside his own plots
+        default: op
+        children:
+          skyblock.admin.build.plot:
+            description: Allow player to build on all plots
+            default: op
+          skyblock.admin.build.road:
+            description: Allow player to build on the road
+            default: op
+      skyblock.admin.name:
+        description: Allows admins to change the name of every plot
+        default: op
