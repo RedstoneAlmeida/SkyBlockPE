@@ -1,11 +1,15 @@
 # SkyBlockPE
 SkyBlock ported to PocketMine, API 1.12.0 +
 
-This plugin is an edit of MyPlot with a new generator and different commands.
+Please note that this is still in development.
 
-MyPlot was found by @wiez and you can find it here: https://github.com/wiez/MyPlot
+This plugin is an edit of [MyPlot](https://github.com/wiez/MyPlot) with a new generator and different commands.
 
-ToDo:
+## Resources
+
+This plugin uses [MyPlot](https://github.com/wiez/MyPlot) by [wiez](https://github.com/wiez).
+
+## To Do:
  - quests and rewards
  - Configuration for exact island size, currently based on chunks
  - rewrite the generator
