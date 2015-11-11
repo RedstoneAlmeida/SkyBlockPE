@@ -21,7 +21,7 @@ This plugin is an edit of [MyPlot](https://github.com/wiez/MyPlot) with a new ge
 
 ## Resources
 
-This plugin uses [MyPlot](https://github.com/wiez/MyPlot) by [wiez](https://github.com/wiez).
+This plugin is a modification of [MyPlot](https://github.com/wiez/MyPlot) by [wiez](https://github.com/wiez).
 
 ## Notes
 
