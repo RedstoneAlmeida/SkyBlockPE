@@ -33,6 +33,7 @@ Command | Usage | Permissions |
  - dispose/clear island fix
  - setspawn bug
  - spawn chests at correct position
+ - change meta of leaves so they despawn and saplings drop
 
 ## Resources
 
