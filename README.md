@@ -17,6 +17,10 @@ This plugin uses [MyPlot](https://github.com/wiez/MyPlot) by [wiez](https://gith
  - dispose/clear island fix
  - setspawn bug
  - spawn chests at correct position
+ 
+Usage:
+ - New world: /is generate <worldname>
+ - Others: see /is help
 
 ## Notes
 
